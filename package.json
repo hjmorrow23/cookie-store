@@ -1,0 +1,42 @@
+{
+  "name": "cookie-store",
+  "version": "1.0.0",
+  "description": "Buy tasty cookies online",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjmorrow23/cookie-store.git"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Henry Morrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjmorrow23/cookie-store/issues"
+  },
+  "homepage": "https://github.com/hjmorrow23/cookie-store#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-hot-loader": "^4.3.11",
+    "styled-components": "^4.1.2"
+  }
+}
